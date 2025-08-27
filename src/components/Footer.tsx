@@ -79,10 +79,10 @@ const Footer = () => {
             
             <div className="text-center md:text-right">
               <p className="text-gray-400 text-sm mb-1">
-                2025 Ink Spire Support developer. All rights reserved.
+                2025 ©All rights reserved.
               </p>
               <p className="text-gray-400 text-sm flex items-center justify-center md:justify-end">
-                Made with <Heart className="w-4 h-4 text-cyan-500 mx-1" /> in Morogoro
+                Made with <Heart className="w-4 h-4 text-cyan-500 mx-1" /> by Ink Spire Support developer
               </p>
             </div>
           </div>
