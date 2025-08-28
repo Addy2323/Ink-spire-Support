@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Phone, Mail, MapPin, Zap, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Heart, Phone, Mail, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -7,12 +7,13 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-lg flex items-center justify-center">
-                <Zap className="w-5 h-5 text-white" />
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="w-14 h-14 rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 flex items-center justify-center p-1">
+                <img src="/logo.png" alt="Ink Spire Support" className="h-full w-full rounded-full" />
               </div>
-              <div className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                Ink Spire Support
+              <div className="text-3xl font-bold">
+                <span style={{ color: '#0f5132' }}>INKSPIRE</span>
+                <span style={{ color: '#0dcaf0' }} className="ml-2">SUPPORT</span>
               </div>
             </div>
             <p className="text-gray-400 max-w-md leading-relaxed mb-4">
@@ -65,10 +66,10 @@ const Footer = () => {
             
             <div className="text-center md:text-right">
               <p className="text-gray-400 text-sm mb-1">
-                2025 ©All rights reserved.
+                2025 &copy;All rights reserved.
               </p>
               <p className="text-gray-400 text-sm flex items-center justify-center md:justify-end">
-                Made with <Heart className="w-4 h-4 text-cyan-500 mx-1" /> by Ink Spire Support developer
+                Made with <Heart className="w-4 h-4 text-cyan-500 mx-1" /> by InkSpire Support developer
               </p>
             </div>
           </div>

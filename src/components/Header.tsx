@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Zap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -19,12 +19,13 @@ const Header = () => {
     }`}>
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-lg flex items-center justify-center">
-              <Zap className="w-5 h-5 text-white" />
+          <div className="flex items-center space-x-3">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 flex items-center justify-center p-0.5">
+              <img src="/logo.png" alt="Ink Spire Support" className="h-full w-full rounded-full" />
             </div>
-            <div className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-              Ink Spire Support
+            <div className="text-2xl font-bold">
+              <span style={{ color: '#0f5132' }}>INKSPIRE</span>
+              <span style={{ color: '#0dcaf0' }} className="ml-1">SUPPORT</span>
             </div>
           </div>
           
